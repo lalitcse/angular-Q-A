@@ -1,0 +1,17 @@
+.accordion button{
+    text-decoration: none !important;
+}
+
+.fa-plus{
+    padding: 0 20px;
+}
+
+
+.accordion{
+    padding: 10px;
+}
+
+
+.win-head{
+    padding: 20px;
+}

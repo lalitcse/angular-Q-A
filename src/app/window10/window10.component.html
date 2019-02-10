@@ -1,0 +1,70 @@
+<div class="win-head">
+    <h2 >{{window10title}}</h2>
+    </div>
+    
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                  {{window10.data.q1}}
+                
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                {{window10.data.a1}}
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <i class="fa fa-plus" aria-hidden="true"></i>{{window10.data.q2}}
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                {{window10.data.a2}}
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <i class="fa fa-plus" aria-hidden="true"></i>{{window10.data.q3}}
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                {{window10.data.a3}}
+            </div>
+          </div>
+          
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapseTwo">
+                    <i class="fa fa-plus" aria-hidden="true"></i>{{window10.data.q4}}
+                </button>
+              </h5>
+            </div>
+            <div id="collapsefour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                  {{window10.data.a4}}
+
+
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    
